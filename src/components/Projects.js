@@ -7,6 +7,7 @@ import advGame from '../IMG/advgame.PNG';
 import bankist from '../IMG/bankist-icon.PNG';
 import forkify from '../IMG/forkify-icon.PNG';
 import mapty from '../IMG/mapty-icon.PNG';
+import icLogo from '../IMG/ICLOGO.png';
 
 const projects = [
     {
@@ -23,14 +24,14 @@ const projects = [
     },
     {
       id: 2,
-      title: 'React Profile Card',
-      image: reactCard,
-      technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
-      about: 'After finishing my JavaScript course I decided to learn React and this was the first project I created while in my course. This project is a simple profile card that is a condensed version of my portfolio website. This project was created using React, HTML, CSS, and JavaScript.',
-      keyTakeaways: 'I was excited to learn React as it seemed a intuitive way to combine JavaScript, HTML, and CSS. I was able to use my knowledge of these languages to easily create a simple project. As I get further into my React course I will continue to update this project and add more features to it as well as including any new projects I create.',
-      links: {
-        liveDemo: 'https://akaina1-react-profile.netlify.app/',
-      },
+      title: 'ARG Project',
+        image: icLogo, // Replace with the actual image filename or URL
+        technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Three.js', 'Framer Motion', 'Redux'],
+        about: 'This is my largest project I have ever created, with over 500 working hours.  This is a full stack web application that operates as a central hub for an Augmented Reality Experience.  Players will be given different handmade materials used to solve puzzles.  This is a continuous experience with future updates planned as well as a plan to scale the project as more players join the experience. Due to the nature of this project I cannot release the source code but I am more than happy to talk about the code and show it to any potential employers.',
+        keyTakeaways: 'This was my first real project I had to sit down and do a lot of planning for.  It required an intricate database setup and backend to handle my idea of branching paths and differing narratives for players.  Creating a plan for the backend and how it will operate really helped me move quickly when creating the frontend components and logic.  This project has also made me realize the need for device optimization,  future updates will bring better compatibility for different devices.',
+        links: {
+          liveDemo: 'https://www.insight-collective.org',
+        },
     },
     {
         id: 3,
@@ -79,7 +80,7 @@ const projects = [
         },
       },
       {
-        id: 6,
+        id: 7,
         title: 'Bankist User Account Page',
         image: bankist, // Replace with the actual image filename or URL
         technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -91,7 +92,7 @@ const projects = [
         },
       },
       {
-        id: 6,
+        id: 8,
         title: 'Mapty Web Application',
         image: mapty, // Replace with the actual image filename or URL
         technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -103,7 +104,7 @@ const projects = [
         },
       },
       {
-        id: 6,
+        id: 9,
         title: 'Forkify Web Application',
         image: forkify, // Replace with the actual image filename or URL
         technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -113,6 +114,17 @@ const projects = [
           github: 'https://github.com/Akaina1/Forkify',
           liveDemo: 'https://akaina1-forkify.netlify.app/',
         },
+      },
+      {
+        id: 10,
+        title: 'React Profile Card',
+        image: reactCard,
+        technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
+        about: 'After finishing my JavaScript course I decided to learn React and this was the first project I created while in my course. This project is a simple profile card that is a condensed version of my portfolio website. This project was created using React, HTML, CSS, and JavaScript.',
+        keyTakeaways: 'I was excited to learn React as it seemed a intuitive way to combine JavaScript, HTML, and CSS. I was able to use my knowledge of these languages to easily create a simple project. As I get further into my React course I will continue to update this project and add more features to it as well as including any new projects I create.',
+        links: {
+          liveDemo: 'https://akaina1-react-profile.netlify.app/',
+      },
       },
     // Add more projects as needed
   ];

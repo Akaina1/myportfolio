@@ -4,6 +4,7 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+import Resume from '../IMG/Aaron-Dost-Resume(2024).pdf'
 
 const NavBar = ({ onSectionChange }) => {
   const [quickLinksAnchor, setQuickLinksAnchor] = React.useState(null);
@@ -23,7 +24,7 @@ const NavBar = ({ onSectionChange }) => {
 
   const downloadResume = () => {
     // Replace 'resume.pdf' with the actual file name of your resume
-    const resumePath = '../IMG/Aaron-Dost-Resume(2024).pdf';
+    const resumePath = Resume;
     const link = document.createElement('a');
     link.href = resumePath;
     link.download = 'Aaron-Dost-resume.pdf'; // Set the desired file name
