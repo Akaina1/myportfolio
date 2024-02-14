@@ -8,6 +8,7 @@ import bankist from '../IMG/bankist-icon.PNG';
 import forkify from '../IMG/forkify-icon.PNG';
 import mapty from '../IMG/mapty-icon.PNG';
 import icLogo from '../IMG/ICLOGO.png';
+import inaLogo from '../IMG/iname.PNG';
 
 const projects = [
     {
@@ -47,13 +48,14 @@ const projects = [
       },
       {
         id: 4,
-        title: 'Business Management System (Console App)',
-        image: businessMan, // Replace with the actual image filename or URL
-        technologies: ['C#', 'CSVHelper'],
-        about: 'This was a project I took on as a final project after learning C#. It is a simple business management system that allows users to manage their inventory, Expenses, Sales, and Marketing. This was the first project I decided to use an external library to manipualte and store data. I used CSVHelper to read and write data to CSV files.',
-        keyTakeaways: 'This Project was the first time I had wanted to work on a system to store data from the program. I decided to use CSV files as it was a simple way to store data and I was able to find a library that made it easy to read and write to CSV files. This project was a great way to learn about how to load and save data to files on the users system. I plan to update this project into a web application using the knowledge I have gained.',
+        title: 'ina.me',
+        image: inaLogo, // Replace with the actual image filename or URL
+        technologies: ['React', 'JavaScript', 'Express.js', ' AWS', 'TailwindCSS'],
+        about: 'This was a simple gallery application made to practice full stack work.  Backend with AWS S3 Bucket, Fly.io Server with Express.js, and React frontend on Netlify.  Simple API to fetch photos from S3 Bucket with Authentication and serve on the website.',
+        keyTakeaways: 'This was just a fun project I wanted to do to work on design and asthetics.  I also used TailwindCSS for the first time and loved the ease of use and customization it offers.',
         links: {
-          github: 'https://github.com/Akaina1/Csharp-Final-Project'
+          github: 'https://github.com/Akaina1/ina.me',
+          liveDemo: 'https://ina-me.netlify.app/',
         },
       },
       {
@@ -125,6 +127,17 @@ const projects = [
         links: {
           liveDemo: 'https://akaina1-react-profile.netlify.app/',
       },
+      },
+      {
+        id: 11,
+        title: 'Business Management System (Console App)',
+        image: businessMan, // Replace with the actual image filename or URL
+        technologies: ['C#', 'CSVHelper'],
+        about: 'This was a project I took on as a final project after learning C#. It is a simple business management system that allows users to manage their inventory, Expenses, Sales, and Marketing. This was the first project I decided to use an external library to manipualte and store data. I used CSVHelper to read and write data to CSV files.',
+        keyTakeaways: 'This Project was the first time I had wanted to work on a system to store data from the program. I decided to use CSV files as it was a simple way to store data and I was able to find a library that made it easy to read and write to CSV files. This project was a great way to learn about how to load and save data to files on the users system. I plan to update this project into a web application using the knowledge I have gained.',
+        links: {
+          github: 'https://github.com/Akaina1/Csharp-Final-Project'
+        },
       },
     // Add more projects as needed
   ];
