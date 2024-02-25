@@ -9,18 +9,19 @@ import forkify from '../IMG/forkify-icon.PNG';
 import mapty from '../IMG/mapty-icon.PNG';
 import icLogo from '../IMG/ICLOGO.png';
 import inaLogo from '../IMG/iname.PNG';
+import greenLogo from '../IMG/Green_Logo.png';
 
 const projects = [
     {
       id: 1,
-      title: 'Venzia Kitchen App',
-      image: vkitchenImage,
-      technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
-      about: 'I wanted to continue practicing with CSS styles and React so I decided to create a simple web app for a fictional restaurant. Created with React, HTML, CSS, and JavaScript. This project is a simple web app that allows users to view the menu and place orders.',
-      keyTakeaways: 'I am enjoying React so I decided to create a small app alongside my other course work. This project was a great way to practice my React skills and my CSS styling. The main focus of this was on asthetics and styling to create a visually appealing website. I was able to use my knowledge of CSS to create a responsive website with fluid animations and a clean design.',
+      title: 'Green Customs',
+      image: greenLogo,
+      technologies: ['React','Express.js','Passport.js','JWT','Node.js','RESTful API','MongoDB','Redux'],
+      about: 'This was another large project I did with the idea of creating an ecommerce platform dedicated to computer components and accessories.  It features a full database in MongoDB, Express Server with authentication, as well as a custom API.',
+      keyTakeaways: 'This was my second largest project I have created and I learned a lot about planning and especially refactoring code to make large changes in a codebase.  One thing I wish I had done was some better planning when creating my Database models to allow for more versitility when fetching certain data from my database',
       links: {
-        github: 'https://github.com/Akaina1/Venezia-Kitchen',
-        liveDemo: 'https://akaina1-venezia-kitchen.netlify.app/',
+        github: 'https://github.com/Akaina1/Ecommerce-App',
+        liveDemo: 'https://green-customs.netlify.app/',
       },
     },
     {
@@ -60,6 +61,18 @@ const projects = [
       },
       {
         id: 5,
+        title: 'Venzia Kitchen App',
+        image: vkitchenImage,
+        technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
+        about: 'I wanted to continue practicing with CSS styles and React so I decided to create a simple web app for a fictional restaurant. Created with React, HTML, CSS, and JavaScript. This project is a simple web app that allows users to view the menu and place orders.',
+        keyTakeaways: 'I am enjoying React so I decided to create a small app alongside my other course work. This project was a great way to practice my React skills and my CSS styling. The main focus of this was on asthetics and styling to create a visually appealing website. I was able to use my knowledge of CSS to create a responsive website with fluid animations and a clean design.',
+        links: {
+          github: 'https://github.com/Akaina1/Venezia-Kitchen',
+          liveDemo: 'https://akaina1-venezia-kitchen.netlify.app/',
+        },
+      },
+      {
+        id: 6,
         title: 'Adventure Game (Console App)',
         image: advGame, // Replace with the actual image filename or URL
         technologies: ['C++'],
@@ -70,7 +83,7 @@ const projects = [
         },
       },
       {
-        id: 6,
+        id: 7,
         title: 'Bankist Website Landing Page',
         image: bankist, // Replace with the actual image filename or URL
         technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -82,7 +95,7 @@ const projects = [
         },
       },
       {
-        id: 7,
+        id: 8,
         title: 'Bankist User Account Page',
         image: bankist, // Replace with the actual image filename or URL
         technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -94,7 +107,7 @@ const projects = [
         },
       },
       {
-        id: 8,
+        id: 9,
         title: 'Mapty Web Application',
         image: mapty, // Replace with the actual image filename or URL
         technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -106,7 +119,7 @@ const projects = [
         },
       },
       {
-        id: 9,
+        id: 10,
         title: 'Forkify Web Application',
         image: forkify, // Replace with the actual image filename or URL
         technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -118,7 +131,7 @@ const projects = [
         },
       },
       {
-        id: 10,
+        id: 11,
         title: 'React Profile Card',
         image: reactCard,
         technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
@@ -129,7 +142,7 @@ const projects = [
       },
       },
       {
-        id: 11,
+        id: 12,
         title: 'Business Management System (Console App)',
         image: businessMan, // Replace with the actual image filename or URL
         technologies: ['C#', 'CSVHelper'],
