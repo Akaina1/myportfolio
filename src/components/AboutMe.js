@@ -68,7 +68,7 @@ const AboutMe = () => {
         <Typography variant="body1">
             <ul>
                 <li>Strong foundation in C, C++, C#, JavaScript, HTML, and CSS.</li>
-                <li> Main focus in full-stack web development with React, Node.js, and MongoDB</li>
+                <li>Main focus in full-stack web development with React, Node.js, and MongoDB</li>
                 <li>Quick learner with the ability to adapt to new programming languages</li>
                 <li>Detail-oriented with a keen eye for code quality and optimization</li>
                 <li>Independent problem solver with strong troubleshooting skills</li>
