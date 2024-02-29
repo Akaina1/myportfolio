@@ -31,7 +31,7 @@ const AboutMe = () => {
         I am always looking to learn more and expand my knowledge of programming 
         and technology as a whole. My main focus is on full stack web development and I am currently 
         working on various projects using React, Redux, SASS, Node.js, Express.js, Passport.js, JWT, 
-        MongoDB, and Mongoose. I am also focusing on the software production lifecycle and the Agile 
+        and MongoDB. I am also focusing on the software production lifecycle and the Agile 
         Development Methodology.
       </Typography>
       <hr />
