@@ -10,10 +10,23 @@ import mapty from '../IMG/mapty-icon.PNG';
 import icLogo from '../IMG/ICLOGO.png';
 import inaLogo from '../IMG/iname.PNG';
 import greenLogo from '../IMG/Green_Logo.png';
+import FadLogo from '../IMG/Fad_Design_Logo.png';
 
 const projects = [
+  {
+    id: 1,
+    title: 'FAD Design',
+    image: FadLogo,
+    technologies: ['React','Express.js','Node.js', 'Next.js', 'TailwindCSS', 'Aceternity UI', 'Framer Motion'],
+    about: 'A fulll stack application made to be the home of my new business venture.  This will hold the portfolio information about the projects my business creates.  This website will be an extension of my personal portfolio, I will continue to create side projects as well as work on group projects with the company.',
+    keyTakeaways: 'This was my favorite project since I started coding 4 years ago. I had a clear vision and implemented strict planning before I started coding.  This cut down overall project time by over 200% compared to previous full-stack applications I created.',
+    links: {
+      github: 'https://github.com/Akaina1/fad-design',
+      liveDemo: 'https://faddesign.netlify.app/',
+    },
+  },
     {
-      id: 1,
+      id: 2,
       title: 'Green Customs',
       image: greenLogo,
       technologies: ['React','Express.js','Passport.js','JWT','Node.js','RESTful API','MongoDB','Redux'],
@@ -25,7 +38,7 @@ const projects = [
       },
     },
     {
-      id: 2,
+      id: 3,
       title: 'ARG Project',
         image: icLogo, // Replace with the actual image filename or URL
         technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Three.js', 'Framer Motion', 'Redux'],
@@ -36,7 +49,7 @@ const projects = [
         },
     },
     {
-        id: 3,
+        id: 4,
         title: 'Portfolio Website (old version)',
         image: portfolio1, // Replace with the actual image filename or URL
         technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -48,7 +61,7 @@ const projects = [
         },
       },
       {
-        id: 4,
+        id: 5,
         title: 'ina.me',
         image: inaLogo, // Replace with the actual image filename or URL
         technologies: ['React', 'JavaScript', 'Express.js', ' AWS', 'TailwindCSS'],
@@ -60,7 +73,7 @@ const projects = [
         },
       },
       {
-        id: 5,
+        id: 6,
         title: 'Venzia Kitchen App',
         image: vkitchenImage,
         technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
@@ -72,7 +85,7 @@ const projects = [
         },
       },
       {
-        id: 6,
+        id: 7,
         title: 'Adventure Game (Console App)',
         image: advGame, // Replace with the actual image filename or URL
         technologies: ['C++'],
@@ -83,7 +96,7 @@ const projects = [
         },
       },
       {
-        id: 7,
+        id: 8,
         title: 'Bankist Website Landing Page',
         image: bankist, // Replace with the actual image filename or URL
         technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -95,7 +108,7 @@ const projects = [
         },
       },
       {
-        id: 8,
+        id: 9,
         title: 'Bankist User Account Page',
         image: bankist, // Replace with the actual image filename or URL
         technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -107,7 +120,7 @@ const projects = [
         },
       },
       {
-        id: 9,
+        id: 10,
         title: 'Mapty Web Application',
         image: mapty, // Replace with the actual image filename or URL
         technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -119,7 +132,7 @@ const projects = [
         },
       },
       {
-        id: 10,
+        id: 11,
         title: 'Forkify Web Application',
         image: forkify, // Replace with the actual image filename or URL
         technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -131,7 +144,7 @@ const projects = [
         },
       },
       {
-        id: 11,
+        id: 12,
         title: 'React Profile Card',
         image: reactCard,
         technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
@@ -142,7 +155,7 @@ const projects = [
       },
       },
       {
-        id: 12,
+        id: 13,
         title: 'Business Management System (Console App)',
         image: businessMan, // Replace with the actual image filename or URL
         technologies: ['C#', 'CSVHelper'],
