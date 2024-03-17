@@ -4,7 +4,7 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-import Resume from '../IMG/Aaron_Dost_Resume_2(2024).pdf'
+import Resume from '../IMG/Aaron_Dost_Resume(2024).pdf'
 
 const NavBar = ({ onSectionChange }) => {
   const [quickLinksAnchor, setQuickLinksAnchor] = React.useState(null);
@@ -27,7 +27,7 @@ const NavBar = ({ onSectionChange }) => {
     const resumePath = Resume;
     const link = document.createElement('a');
     link.href = resumePath;
-    link.download = 'Aaron-Dost-resume.pdf'; // Set the desired file name
+    link.download = 'Aaron_Dost_Resume(2024).pdf'; // Set the desired file name
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
