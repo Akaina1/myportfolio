@@ -11,10 +11,22 @@ import icLogo from '../IMG/ICLOGO.png';
 import inaLogo from '../IMG/iname.PNG';
 import greenLogo from '../IMG/Green_Logo.png';
 import FadLogo from '../IMG/Fad_Design_Logo.png';
+import Ctrlv from '../IMG/CTRLVUI.png';
 
 const projects = [
   {
     id: 1,
+    title: 'CTRLV - UI',
+    image: Ctrlv,
+    technologies: ['React', 'TailwindCSS', ],
+    about: 'Created an open source solution to reusable components in React.  This project focuses on copy/paste solutions to popular web components.  All components adhere to WAI-ARIA guidelines for accessibility.  Components are simple to integrate into projects and highly customizable.',
+    keyTakeaways: 'This project was my first time working in a larger group setting, starting with four developers and opening it up to be an open source project was a great learning experience in software development.',
+    links: {
+      github: 'https://github.com/Akaina1/ctrlv_ui',
+    },
+  },
+  {
+    id: 2,
     title: 'FAD Design',
     image: FadLogo,
     technologies: ['React','Express.js','Node.js', 'Next.js', 'TailwindCSS', 'Aceternity UI', 'Framer Motion'],
@@ -26,7 +38,7 @@ const projects = [
     },
   },
     {
-      id: 2,
+      id: 3,
       title: 'Green Customs',
       image: greenLogo,
       technologies: ['React','Express.js','Passport.js','JWT','Node.js','RESTful API','MongoDB','Redux'],
@@ -38,7 +50,7 @@ const projects = [
       },
     },
     {
-      id: 3,
+      id: 4,
       title: 'ARG Project',
         image: icLogo, // Replace with the actual image filename or URL
         technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Three.js', 'Framer Motion', 'Redux'],
@@ -49,7 +61,7 @@ const projects = [
         },
     },
     {
-        id: 4,
+        id: 5,
         title: 'Portfolio Website (old version)',
         image: portfolio1, // Replace with the actual image filename or URL
         technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -61,7 +73,7 @@ const projects = [
         },
       },
       {
-        id: 5,
+        id: 6,
         title: 'ina.me',
         image: inaLogo, // Replace with the actual image filename or URL
         technologies: ['React', 'JavaScript', 'Express.js', ' AWS', 'TailwindCSS'],
@@ -73,7 +85,7 @@ const projects = [
         },
       },
       {
-        id: 6,
+        id: 7,
         title: 'Venzia Kitchen App',
         image: vkitchenImage,
         technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
@@ -85,7 +97,7 @@ const projects = [
         },
       },
       {
-        id: 7,
+        id: 8,
         title: 'Adventure Game (Console App)',
         image: advGame, // Replace with the actual image filename or URL
         technologies: ['C++'],
@@ -96,7 +108,7 @@ const projects = [
         },
       },
       {
-        id: 8,
+        id: 9,
         title: 'Bankist Website Landing Page',
         image: bankist, // Replace with the actual image filename or URL
         technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -108,7 +120,7 @@ const projects = [
         },
       },
       {
-        id: 9,
+        id: 10,
         title: 'Bankist User Account Page',
         image: bankist, // Replace with the actual image filename or URL
         technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -120,7 +132,7 @@ const projects = [
         },
       },
       {
-        id: 10,
+        id: 11,
         title: 'Mapty Web Application',
         image: mapty, // Replace with the actual image filename or URL
         technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -132,7 +144,7 @@ const projects = [
         },
       },
       {
-        id: 11,
+        id: 12,
         title: 'Forkify Web Application',
         image: forkify, // Replace with the actual image filename or URL
         technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -144,7 +156,7 @@ const projects = [
         },
       },
       {
-        id: 12,
+        id: 13,
         title: 'React Profile Card',
         image: reactCard,
         technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
@@ -155,7 +167,7 @@ const projects = [
       },
       },
       {
-        id: 13,
+        id: 14,
         title: 'Business Management System (Console App)',
         image: businessMan, // Replace with the actual image filename or URL
         technologies: ['C#', 'CSVHelper'],
